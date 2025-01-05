@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master Trace</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imgs/logo.ico">
+   
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+
+</head>
+<body>
+    
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="imgs/logo.ico" alt="Master Fast Logo">
+                    <h2>Master <span class="danger" style="color: rgb(68, 3, 143);">Fast</span></h2>
+                </div>
+                <!---->
+                <div class="close" id="close-btn">
+                    <span class="material-symbols-sharp">close</span>
+                </div>
+            </div>
+            <div class="sidebar">
+                <a href="#">
+                    <span class="material-symbols-sharp">person</span>
+                    <h3>Account</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-sharp">apartment</span>
+                    <h3>Company info</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-sharp">overview</span>
+                    <h3>License and docs</h3>
+                    <span class="License-count">15</span>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-sharp">settings</span>
+                    <h3>Settings</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-sharp">report</span>
+                    <h3>Report</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-sharp">logout</span>
+                    <h3>Logout</h3>
+                </a>
+            </div>
+        </aside>
+        <!--------------------------------END OF RIGHT SIDE SECTION -------------------------------------->
+        <main>
+            <h1>Dashboard</h1>
+
+            <div class="date">
+                <input type="date">
+            </div>
+
+            <div class="insights">
+                <div class="Balance">
+                    <span class="material-symbols-outlined">paid</span>
+                        <div class="middle">
+                            <div class="left">
+                                <h3>Balance</h3>
+                                <h1>40.0 LY</h1>
+                            </div>
+                            <div class="progress">
+                                <svg>
+                                    <circle cx='38' cy='38' r='36'></circle>
+                                </svg>
+                                <div class="number">
+                                    <p>80%</p>
+                                </div>
+                            </div>
+                        </div> 
+                    <small class="text-muted">EXP 01/01/2025 21:05</small>                    
+                </div>
+                <!----------------------- END OF Hours ----------------------------------->
+                <div class="act-hours">
+                    <span class="material-symbols-outlined">schedule</span>
+                        <div class="middle">
+                            <div class="left">
+                                <h3>Active Hours</h3>
+                                <h1>13.17h</h1>
+                            </div>
+                            <div class="progress">
+                                <svg>
+                                    <circle cx='38' cy='38' r='36'></circle>
+                                </svg>
+                                <div class="number">
+                                    <p>62%</p>
+                                </div>
+                            </div>
+                        </div> 
+                    <small class="text-muted">Last 24 Hours</small>                 
+                </div>
+                <!----------------------- END OF BALANCE ----------------------------------->
+                <div class="curr-act-user">
+                    <span class="material-symbols-outlined">interactive_space</span>
+                        <div class="middle">
+                            <div class="left">
+                                <h3>Active Users</h3>
+                                <h1>4</h1>
+                            </div>
+                            <div class="progress">
+                                <svg>
+                                    <circle cx='38' cy='38' r='36'></circle>
+                                </svg>
+                                <div class="number">
+                                    <p>44%</p>
+                                </div>
+                            </div>
+                        </div> 
+                    <small class="text-muted">Limite 50</small>                    
+                </div>
+                <!----------------------- END OF BALANCE ----------------------------------->
+            </div>
+            <!---------------------------- END OF INSIGHTS --------------------------------------------->
+            <div class="users-status">
+                <h2>User Status</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>User Name</th>
+                            <th>Login State</th>
+                            <th>Active State</th>
+                            <th class="to-go">Last Login</th>
+                            <th>Last Logout</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Mohammed Furrara</td>
+                            <td>permit</td>
+                            <td style="color: green;">True</td>
+                            <td class="warning">--</td>
+                            <td class="primary">--</td>
+                        </tr>
+                        <tr>
+                            <td>Sarah Khalid</td>
+                            <td>deny</td>
+                            <td style="color: red;">False</td>
+                            <td class="warning">2024-09-10 08:45</td>
+                            <td class="primary">2024-09-10 09:15</td>
+                        </tr>
+                        <tr>
+                            <td>Ali Hassan</td>
+                            <td>permit</td>
+                            <td style="color: green;">True</td>
+                            <td class="warning">--</td>
+                            <td class="primary">--</td>
+                        </tr>
+                        <tr>
+                            <td>Fatima Noor</td>
+                            <td>permit</td>
+                            <td style="color: green;">True</td>
+                            <td class="warning">--</td>
+                            <td class="primary">--</td>
+                        </tr>
+                        <tr>
+                            <td>Ahmed Saeed</td>
+                            <td>permit</td>
+                            <td style="color: red;">False</td>
+                            <td class="warning">2024-09-09 14:00</td>
+                            <td class="primary">2024-09-09 14:45</td>
+                        </tr>
+                        <tr>
+                            <td>Lina Zayed</td>
+                            <td>permit</td>
+                            <td style="color: green;">True</td>
+                            <td class="warning">--</td>
+                            <td class="primary">--</td>
+                        </tr>
+                        <tr>
+                            <td>Omar Nasser</td>
+                            <td>permit</td>
+                            <td style="color: green;">True</td>
+                            <td class="warning">--</td>
+                            <td class="primary">--</td>
+                        </tr>
+                        <tr>
+                            <td>Zainab Youssef</td>
+                            <td>deny</td>
+                            <td style="color: red;">False</td>
+                            <td class="warning">2024-09-10 15:00</td>
+                            <td class="primary">2024-09-10 15:45</td>
+                        </tr>
+                        <tr>
+                            <td>Yasir Ahmed</td>
+                            <td>permit</td>
+                            <td style="color: green;">True</td>
+                            <td class="warning">--</td>
+                            <td class="primary">--</td>
+                        </tr>
+                        <tr>
+                            <td>Layla Karim</td>
+                            <td>permit</td>
+                            <td style="color: red;">False</td>
+                            <td class="warning">2024-09-08 10:30</td>
+                            <td class="primary">2024-09-08 11:00</td>
+                        </tr>
+                        <tr>
+                            <td>Hussein Jaber</td>
+                            <td>permit</td>
+                            <td style="color: green;">True</td>
+                            <td class="warning">--</td>
+                            <td class="primary">--</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a href="#">Show All</a>
+            </div>
+        </main>
+        <!------------------------ END OF MAIN ------------------------------------->
+        
+        <div class="right">
+            <div class="top">
+                <button id="menu-btn">
+                    <span class="material-symbols-outlined">menu</span>                       
+               </button>
+               <div class="theme-toggoler">
+                <span class="material-symbols-outlined active">light_mode</span> 
+                <span class="material-symbols-outlined">dark_mode</span>                                   
+               </div>
+               <div class="profile">
+                    <div class="info">
+                        <p>Hey <b>Mohammed</b></p>
+                        <small class="text-muted">Admin</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="imgs/A.png" alt="Mohammed">
+                    </div>   
+               </div>
+            </div>
+            <!------------END OF TOP ------------------------------------->
+            <div class="community">
+                <h2>Master Community</h2>
+                <div class="posts">
+                    <div class="post">
+                        <div class="profile-photo">
+                            <img src="imgs/A.png" alt="">
+                        </div>
+                        <div class="message">
+                            <p><b>Nuri</b>Accouter 5y of experience</p>
+                            <small class="text-muted"> 2 minutes ago</small>
+
+                          
+                        </div>
+                    </div>
+                    <!------------------->
+                    <div class="post">
+                        <div class="profile-photo">
+                            <img src="imgs/A.png" alt="">
+                        </div>
+                        <div class="message">
+                            <p><b>mustafa</b>500m store for Rent in jraba street 091-1535481</p>
+                            <small class="text-muted"> 2 minutes ago</small>
+
+                          
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="profile-photo">
+                            <img src="imgs/A.png" alt="">
+                        </div>
+                        <div class="message">
+                            <p><b>Ahmed</b>HP Laptop and Printer for sale at highest price checkout my profile</p>
+                            <small class="text-muted"> 2 minutes ago</small>
+
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
